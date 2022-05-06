@@ -12,9 +12,9 @@ The source code for each extensions is located in the directory:
 ```
 ./source_code/[ext_id].crx
 ```
-There are 64,114, 66G extensions with source code in total.
+There are 64,114, extensions with source code, 66G, in total.
 The raw HTML file for each linked privacy policy pages is located in the directory:
 ```
 ./policy_pages/[ext_id].crx
 ```
-There are 20,761, 846M HTML files in total.
+There are 20,761 HTML files, 846M, in total.
