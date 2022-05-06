@@ -11,6 +11,7 @@ Meanwhile, we collected all possible meta data during the crawling, including th
 The source code for each extension and corresponding privacy HTML file is located in Dropbox shared folder:
 https://www.dropbox.com/sh/vq22x69pn5etl22/AAABcN9RYfcZSjPnlcdyMvRsa?dl=0
 ### Source Code
+The source code for each extension is located in the directory:
 ```
 [shared_folder]/source_code/[ext_id].crx
 ```
