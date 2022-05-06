@@ -17,7 +17,7 @@ The source code for each extension is located in the directory:
 ```
 There are 64,114, extensions with source code, 66G, in total.
 ### Privacy Policy Files
-The raw HTML file for each linked privacy policy pages is located in the directory:
+The raw HTML file for each linked privacy policy page is located in the directory:
 ```
 [shared_folder]/policy_pages/[ext_id].html
 ```
