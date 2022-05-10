@@ -22,3 +22,14 @@ The raw HTML file for each linked privacy policy page is located in the director
 [shared_folder]/policy_pages/[ext_id].html
 ```
 There are 20,761 HTML files, 846M, in total.
+
+### PrivAud-100
+The corpus, PrivAud-100 consists of 100 randomly selected privacy policies, 3,645 sentences with labels.
+The data is located in:
+```
+./PrivAud-100.csv
+```
+The detail for each label is located in:
+```
+./PrivAud-100_labels.md
+```
