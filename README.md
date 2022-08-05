@@ -1,5 +1,9 @@
 # PPCompliance
-This repository contains data for ASE 2022 submission: Are they Toeing the Line? Auditing Privacy Compliance among Browser Extensions
+This repository contains data for ASE 2022 submission: Are they Toeing the Line? Diagnosing Privacy Violations among Browser Extensions
+
+## Source Code
+The source code of our diagnosing tool is consisted of three parts:
+......
 
 ## Data Set
 The full list for all the extensions we crawled from the Chrome Web Store is located in:
