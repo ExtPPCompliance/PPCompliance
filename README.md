@@ -2,7 +2,13 @@
 This repository contains data for ASE 2022 submission: Are they Toeing the Line? Diagnosing Privacy Violations among Browser Extensions
 
 ## Source Code
-The source code of our diagnosing tool is consisted of three parts:
+The source code of our diagnosing tool is consisted of two parts: trainning models and practice&policy analyzer.
+```
+./NLP_models
+./PP_analyzer
+```
+Inside the `NLP_models`, we implemented three models, which are BiLSTM, BERT and SVM. And we trained and tested the models with three different dataset, Zimmeck, Liushuang and our PrivAud-100, which are all open sourced.
+Inside the `PP_analyzer`, we implemented a privacy analyzer and a practice analyzer. The data is for large scale privacy issues analysis among all the chrome extensions.
 ......
 
 ## Data Set
@@ -12,7 +18,7 @@ The full list for all the extensions we crawled from the Chrome Web Store is loc
 ```
 Meanwhile, we collected all possible meta data during the crawling, including the id, name, author, subcategory, downlaods, rating, introduction, last update time, privacy policy declared, and outside privacy policy link.
 
-The source code for each extension and corresponding privacy HTML file is located in Dropbox shared folder:
+The sourcecode for each extension and corresponding privacy HTML file is located in Dropbox shared folder:
 https://www.dropbox.com/sh/vq22x69pn5etl22/AAABcN9RYfcZSjPnlcdyMvRsa?dl=0
 ### Source Code
 The source code for each extension is located in the directory:
