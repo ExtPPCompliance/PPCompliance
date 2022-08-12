@@ -12,6 +12,7 @@ Inside the `PP_analyzer`, we implemented a privacy analyzer and a practice analy
 ......
 
 ## Data Set
+#### Full List
 The full list for all the extensions we crawled from the Chrome Web Store is located in:
 ```
 ./chrome_60k_fulllist.json
