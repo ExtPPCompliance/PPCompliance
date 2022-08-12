@@ -1,0 +1,13 @@
+BiLSTMModel(
+  (lstm): LSTM(100, 256, bidirectional=True)
+  (attention_weights_layer): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU(inplace=True)
+  )
+  (liner): Linear(in_features=256, out_features=54, bias=True)
+  (act_func): Softmax(dim=1)
+)
+Train Loss: 0.0006046379198164634, Train Acc: 0.7049095069690036
+Test Loss: 0.03641222985682267, Test Acc: 0.7094257178526842
+Train Loss: 0.0005708749853392289, Train Acc: 0.7094861660079052
+Test Loss: 0.03638886117472891, Test Acc: 0.7094257178526842
