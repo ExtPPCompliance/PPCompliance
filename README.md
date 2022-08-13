@@ -9,7 +9,6 @@ The source code of our diagnosing tool is consisted of two parts: trainning mode
 ```
 Inside the `NLP_models`, we implemented three models, which are BiLSTM, BERT and SVM. And we trained and tested the models with three different dataset, Zimmeck, Liushuang and our PrivAud-100, which are all open sourced.
 Inside the `PP_analyzer`, we implemented a privacy analyzer and a practice analyzer. The data is for large scale privacy issues analysis among all the chrome extensions.
-......
 
 ## Fully Compliant and Incompliant Examples Report
 The report gives two extension examples. One is the fully compliant example, whose privacy policy satisfies the minimum requirements and all the data collection statements are conform to each other among privacy policy, privacy practice summary and privacy practice. 
@@ -18,7 +17,7 @@ The details of these two example are located at:
 ```
 ./Compliant_Incompliant_Examples_Report.pdf
 ```
-......
+
 ## Data Set
 #### Full List
 The full list for all the extensions we crawled from the Chrome Web Store is located in:
