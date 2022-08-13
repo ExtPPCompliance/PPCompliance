@@ -11,6 +11,14 @@ Inside the `NLP_models`, we implemented three models, which are BiLSTM, BERT and
 Inside the `PP_analyzer`, we implemented a privacy analyzer and a practice analyzer. The data is for large scale privacy issues analysis among all the chrome extensions.
 ......
 
+## Fully Compliant and Incompliant Examples Report
+The report gives two extension examples. One is the fully compliant example, whose privacy policy satisfies the minimum requirements and all the data collection statements are conform to each other among privacy policy, privacy practice summary and privacy practice. 
+By contrast, another example is the fully incompliant example.
+The details of these two example are located at:
+```
+./Compliant_Incompliant_Examples_Report.pdf
+```
+......
 ## Data Set
 #### Full List
 The full list for all the extensions we crawled from the Chrome Web Store is located in:
