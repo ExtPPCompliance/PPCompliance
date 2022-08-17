@@ -4,8 +4,9 @@ The code is a large scale prediction for all the privacy policy sentences of all
 
 ### Input File
 The input file is a large `csv` file with the structure of `[ext_id, sentence]` in each line.
-The input file can be found at our dropbox shared folder, located at:
-`./implementation_data/all_privacy_loicy.csv`
+
+The input file can be found at:
+`./implementation_data/all_privacy_policy.csv`
 
 ### Run the Code
 Very simple, just type in the terminal:
