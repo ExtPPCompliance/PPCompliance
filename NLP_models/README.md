@@ -13,8 +13,8 @@ python3 ./train.py
 The model file ends with `.ckpt` which is located in:
 ```
 ./[model]/[model]_[dataset]_dataset/logs/[model_name]/[version_num]/checkpoints/[arguments].ckpt
-
 ```
+
 Run the following command to test the model:
 ```
 python3 ./infer_by_out_corpus.py
