@@ -20,13 +20,13 @@ If you want to evaluate a single extension or get the analysis result immediatel
 For `practice_analyzer`, it gives the actual privacy practice for all the extensions.
 The input file is the original extension compresed source code package with `crx` suffix.
 The whole analysis process is shown below:
-##### Unzip the CRX file
+#### Unzip the CRX file
 Put all the `crx` files are located in a directory named `zip`, run the command below:
 ```
 sh ./practice_analyzer/unzip.sh [$your_directory_of_zip_files]
 ```
 You will get the unzip files in the same directory names `unzip`
-##### Get Chrome API Call and DOM Operation API Call
+#### Get Chrome API Call and DOM Operation API Call
 Change the path to your unzip folder in line 128 of `./practice_analyzer/get_chrome_api.mjs`, then run the code with `node` command.
 
 The same operation to `./practice_analyzer/get_domtree_operation.mjs`, and run it with `node`.
@@ -37,12 +37,12 @@ To extract the callee details, comment line 151 or line 152 of `./practice_analy
 
 The result files are in the format as `[ext_id]_privacy_api.json` and `[ext_id]_dom_operation.json`.
 
-##### Get Target Tags from Dynamic Pages
+#### Get Target Tags from Dynamic Pages
 Change the path to your dynamic pages folder in line 46 of `./practice_analyzer/get_tag.py`, then run it with `python3`.
 
 The result files are in the format as `[ext_id]_userinput_tags.json`.
 
-##### Get Privacy Compliance Conclusion
+#### Get Privacy Compliance Conclusion
 Change the path to your unzip folder or dynamic pages folder in line 86 of `./practice_analyzer/conclude_all_results.py`, then run it with  python3`.
 
 Uncomment the code to get both Chrome API result and dynamic input tag result.
