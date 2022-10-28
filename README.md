@@ -1,5 +1,5 @@
 # PPCompliance
-This repository contains data for ASE 2022 submission: Are they Toeing the Line? Diagnosing Privacy Violations among Browser Extensions
+This repository contains data for ASE 2022 accepted paper: Are they Toeing the Line? Diagnosing Privacy Violations among Browser Extensions
 
 ## Source Code
 The source code of our diagnosing tool is consisted of two parts: trainning models and practice&policy analyzer.
