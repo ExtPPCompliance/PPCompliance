@@ -6,6 +6,12 @@ The name for each folder is `./[model]/[model]_[data_set_name]_dataset`.
 ## Train and Test
 The code is easy for duplication. No need to change any setting in the code.
 
+The first step is changing the directory you are in. Please change to the directory where `train.py` and `inter_by_our_corpus.py` are in. For example, you want to test Bert model in our data set:
+```
+cd NLP_models/BERT/bert_our_dataset
+```
+Insure you are in the right directory before the next step.
+
 Run the following command to start training:
 ```
 python3 ./train.py
